@@ -1,10 +1,7 @@
-console.log("Leetcode Timer started")
-
 window.onload = function() {
     setTimeout(showTime, 3000);
     
     function showTime() {
-      console.log("showTime called")
       const today = new Date();
       let h = today.getHours();
       let m = today.getMinutes();
