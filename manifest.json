@@ -1,0 +1,14 @@
+{
+    "name": "Leetcode Watch",
+    "version": "1.0",
+    "author": "Param Chauhan",
+    "description": "Show current time on leetcode",
+    "permissions": ["*://leetcode.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://leetcode.com/*"],
+        "js": ["time.js"]
+      }
+    ],
+    "manifest_version": 2
+  }
